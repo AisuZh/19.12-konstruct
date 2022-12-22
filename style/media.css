@@ -1,0 +1,56 @@
+@media screen and (max-width: 700px) {
+
+    /* hero */
+    .container{
+        max-width: 700px;
+
+    }
+    .hero__title{
+        font-size: 50px;
+    }
+    /* header */
+
+    .header__link{
+        margin-left: 25px;
+    }
+
+
+    /* story */
+    .story__wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .story__images{
+        padding-top: 35px ;
+    
+    }
+    .story__info{
+        padding: 0;
+    }
+    .story__images-title{
+        margin-left: 25PX;
+    }
+
+    /* capabilities */
+
+    .capabilities__wrapper{
+        flex-direction: column;
+    }
+    .capabilities__info{
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+
+    /* signup */
+    .signup__title{
+        font-size: 17px;
+    }
+
+    /* footer */
+
+    .footer__wrapper{
+        grid-template-columns: 3fr 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+}
